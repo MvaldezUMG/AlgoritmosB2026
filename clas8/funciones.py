@@ -18,3 +18,10 @@ while True:
     #entre llaves se sustituyen con la variable
     print(f"El precio con iva es {precio_con_iva}")
     precio = float(input("Ingrese el precio\n"))
+
+#Valores por defecto
+def presentarse(nombre, curso="Algoritmos"):
+    print("Hola soy", nombre, "y estudio", curso, sep=" ")
+
+presentarse("Marco")
+presentarse("Marco", "Desarrollo web")
